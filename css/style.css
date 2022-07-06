@@ -1,0 +1,198 @@
+/*index.html*/
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color: azure;
+}
+
+nav{
+    display: flex;
+    height: 8vh;
+    background-color: wheat;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav .left_side{
+    flex: 50%;
+    background-color: navy;
+    padding-left: 40px;
+}
+
+nav .left_side ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+nav .left_side ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav .right_side{
+    flex: 50%;
+    background-color:navy;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+nav .right_side a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+}
+
+.container{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.container .left_container,
+.right_container{
+    margin: 40px;
+}
+
+.container .left_container{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.container .sub_container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container .contact_container{
+    margin: 10px;
+}
+
+.left_container .contact_container{
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.container .left_container .contact{
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: navy;
+    cursor: pointer;
+}
+
+.container .left_container .contact a{
+    color: white;
+    text-decoration: none;
+}
+
+.container .left_container h5,
+.fa-download{
+    color: navy;
+    cursor: pointer;
+}
+
+.container .left_container .icon_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: navy;
+    margin: 25px 8px;
+    cursor: pointer;
+}
+
+.container .left_container .fa-brands{
+    color: white;
+}
+
+.container .left_container p{
+    text-align: justify;
+}
+
+.container .right_container{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.container .right_container #default_picture{
+    height: 500px;
+    width: 450px;
+    border-radius: 15px 15px 0 0;
+}
+
+.container .right_container .identity{
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+    height: 100px;
+    width: 450px;
+}
+
+.container .right_container .identity h3{
+    color: navy;   
+}
+
+.container .right_container .identity h3,h4{
+    text-align: center; 
+}
+
+/*-----------contact.html---------------*/
+
+form{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form h1{
+    text-align: center;
+    color: navy;
+}
+form div{
+    margin: 30px;
+}
+
+form div input, select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    color: navy;
+    border: 2px solid navy;
+}
+
+form div #full_name, #email,
+#phone,#subject{
+    height: 30px;
+    border-radius: 10px;
+}
+
+form div #message{
+    border-radius: 10px;
+    resize: none;
+}
+
+form label, option{
+    color: navy;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+form .submit{
+    text-align: end;
+}
+
+form .submit #submit_button{
+    color: white;
+    background-color: navy;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
