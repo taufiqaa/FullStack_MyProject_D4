@@ -30,12 +30,19 @@ function loadProjects() {
     for (let i = 0; i < projects.length; i++) {
         
         containerProjects.innerHTML += `
-        <div class="box" id="box_project">
-            <div class="image_content">
-                 <img src="${projects[i].imageFile}" alt="" id="image_project1">
-         </div>
-       <div><h3>${projects[i].projectName}</h3></div>
-        <p>${projects[i].description}</p>
+    <div class="box" id="box_project">
+        <div class="image_content">
+            <img src="${projects[i].imageFile}" alt="" id="image_project1">
+        </div>
+        <div id="output_project_name">
+            <h3>${projects[i].projectName}</h3>
+        </div>
+        <div id="duration">
+            <h4>Durasi</h4>  
+        </div>
+        <div id="output_description">
+            <p>${projects[i].description}</p>
+        </div>
         <div class="container_language_icon">
             <div class="flex_language_icon">
                 <div class="language_icon">
@@ -52,16 +59,15 @@ function loadProjects() {
                 </div>
             </div>
         </div>
-            <div class="container_content_button">
-                <div class="left_content_button">
-                    <button id="edit_content_button">Edit</button>
-                </div>
-                <div class="right_content_button">
-                    <button id="delete_content_button">Delete</button>
-                </div>
+        <div class="container_content_button">
+            <div class="left_content_button">
+                <button id="edit_content_button">Edit</button>
             </div>
-        </div>        
-        </div>`
+            <div class="right_content_button">
+                <button id="delete_content_button">Delete</button>
+            </div>
+        </div>
+    </div>`
     }   
 }
 
