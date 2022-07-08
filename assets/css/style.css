@@ -269,7 +269,7 @@ form #upload_project_button{
 }
 /* Output Project*/
 #second_section{
-    padding: 0 10vh;
+  /*  padding: 0 10vh;*/
     border: 1px solid navy;
     height: 100%;
 }
@@ -290,10 +290,10 @@ form #upload_project_button{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
-    width: 25%;
+    width: 400px;
     height: 550px;
     margin-left: 5%;
-    padding: 0.5vh;
+    /*padding: 0.5vh;*/
     /*box-shadow: 2px 2px 0 0 black;*/
 }
 
@@ -349,7 +349,7 @@ form #upload_project_button{
     border: 1px solid black;
     margin-top: 10px;
     width: 100%;
-    height: 60px;
+    height: 45px;
 }
         
 #second_section .big_content .box .container_language_icon .flex_language_icon{
@@ -359,6 +359,28 @@ form #upload_project_button{
     height: 100%;
 }
         
+#second_section .big_content .box .container_language_icon .flex_language_icon #node_js, #react_js, #vue_js, #typescript {
+    max-width: 100%;
+    height: auto;
+}
+
+/*#second_section .big_content .box .container_language_icon .flex_language_icon #react_js{
+    max-width: 100%;
+    height: auto;
+}
+
+#second_section .big_content .box .container_language_icon .flex_language_icon #vue_js{
+    max-width: 100%;
+    height: auto;
+}
+
+#second_section .big_content .box .container_language_icon .flex_language_icon #typescript{
+    max-width: 100%;
+    height: auto;
+}*/
+
+
+
 #second_section .big_content .box .container_content_button{
     margin-top: 5px;
     border: 1px solid black;
@@ -383,8 +405,6 @@ form #upload_project_button{
     width:45%;
     border-radius: 10vw;
 }
-
-#second_section .big_content .box .container_content_button 
 /*#second_section .box .image_content
 #image_project1{
     width: 430px;
