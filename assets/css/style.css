@@ -204,6 +204,7 @@ form .submit #submit_button{
 form div #project_name{
     height: 30px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .container_date{
@@ -229,6 +230,7 @@ form #description{
     height: 80px;
     resize: none;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .container_technologies{
@@ -297,6 +299,7 @@ form #upload_project_button{
     border-radius: 12px;
     /*padding: 0.5vh;*/
     box-shadow: 2px 5px 0 0 black;
+    background-color: azure;
 }
 
 #second_section .big_content .box .image_content{
@@ -389,6 +392,8 @@ form #upload_project_button{
     width: 49%;
     margin-left: 1px;
     border-radius: 10vw;
+    color: white;
+    background-color: navy;
 }
 
 #second_section .big_content .box .container_content_button .right_content_button{
@@ -398,6 +403,8 @@ form #upload_project_button{
 #second_section .big_content .box .container_content_button .right_content_button #delete_content_button{
     width:49%;
     border-radius: 10vw;
+    color: white;
+    background-color: navy;
 }
 /*#second_section .box .image_content
 #image_project1{
