@@ -252,7 +252,7 @@ form #description{
     margin-top: 5px;
 }*/
 
-form #button_upload_image{
+form #upload_image_button{
     background-color: white;
     box-shadow: 2px 3px 0 0 black;
     display: inline-block;

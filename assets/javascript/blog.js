@@ -5,9 +5,11 @@ function addProject(event) {
 
     let projectName = document.getElementById("project_name").value;
     let description = document.getElementById("description").value;
-    let imageFile = document.getElementById("button_upload_image");
-
-    imageFile = URL.createObjectURL(imageFile.files[0])
+    let imageFile = document.getElementById("upload_image_button");
+    
+  
+ 
+        imageFile = URL.createObjectURL(imageFile.files[0])
     //imageFile.srcObject = imageFile.files[0]
     let project = {
         projectName,
@@ -23,6 +25,7 @@ function addProject(event) {
 function loadProjects() {
    console.log(projects);
 
+  
     let containerProjects = document.getElementById("big_content")
     
     containerProjects.innerHTML = ""
@@ -46,7 +49,8 @@ function loadProjects() {
         <div class="container_language_icon">
             <div class="flex_language_icon">
                 <div class="language_icon">
-                    <img src="assets/images/node_js.png" alt="" id="node_js">
+                <img src="assets/images/node_js.png" style="display:none" alt="" id="node_js">
+                    
                 </div>
                 <div class="language_icon">
                     <img src="assets/images/react_js.png" alt="" id="react_js">
@@ -68,9 +72,20 @@ function loadProjects() {
             </div>
         </div>
     </div>`
-    }   
-}
 
+    let Node_js = document.getElementById("node_js");
+    let checkbox_language_1 = document.getElementById("all_language_icon1");
+
+    checkbox_language_1.onsubmit = function(){
+        Node_js.style.display = "block";
+          }
+
+
+          
+        }
+    }
+
+    
 
 
 
