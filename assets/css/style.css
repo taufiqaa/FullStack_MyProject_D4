@@ -355,6 +355,8 @@ form #upload_project_button{
 #second_section .big_content .box .container_language_icon .flex_language_icon{
     display:flex;
     flex-direction: row;
+    width: 50%;
+    height: 100%;
 }
         
 #second_section .big_content .box .container_content_button{
