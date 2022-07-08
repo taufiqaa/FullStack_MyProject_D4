@@ -34,7 +34,7 @@ function loadProjects() {
             <div class="image_content">
                  <img src="${projects[i].imageFile}" alt="" id="image_project1">
          </div>
-       <div> <h3>${projects[i].projectName}</h3> </div>
+       <div><h3>${projects[i].projectName}</h3></div>
         <p>${projects[i].description}</p>
         <div class="container_language_icon">
             <div class="flex_language_icon">
