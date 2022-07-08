@@ -2,6 +2,9 @@
 body{
     font-family: Arial;
     margin: 0;
+}
+
+#first_section{
     background-color: azure;
 }
 
@@ -195,4 +198,140 @@ form .submit #submit_button{
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+/*------------Blog.html---------*/
+form div #project_name{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.container_date{
+    display: flex;
+}
+
+.container_date .left_date{
+    width: 50%;
+    margin: 5px;
+}
+
+.container_date .right_date{
+    width: 50%;
+    margin: 5px;
+}
+
+.container_date #start_date, #end_date{
+    height: 30px;
+    border-radius: 10px;
+}
+
+form #description{
+    height: 80px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.container_technologies{
+    display: flex;
+    border: 1px solid black;
+}
+
+.container_technologies .left_technologies{
+    width: 50%;
+    margin: 5px;
+}
+
+.container_technologies .right_technologies{
+    width: 50%;
+    margin: 5px;
+}
+
+/*.container_technologies p{
+    margin-top: 5px;
+}*/
+
+form #button_upload_image{
+    background-color: white;
+    box-shadow: 2px 3px 0 0 black;
+    display: inline-block;
+    border-radius: 10px;
+    height: 24px;
+}
+
+form #upload_project_button{
+    color: white;
+    background-color: navy;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#second_section{
+    padding: 10px 90px;
+}
+#second_section h1{
+    text-align: center;
+}
+
+#second_section .box{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 450px;
+    height: 580px;
+    margin-left: 14px;
+    box-shadow: 2px 2px 0 0 black;
+}
+
+#second_section .big_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div .image_content{
+    width: 450px;
+    height: 217px;
+}
+
+#second_section .box .image_content
+#image_project1{
+    width: 430px;
+    height: fit-content;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.box p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.container_content_button{
+    display: flex;
+    margin: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container_content_button .left_content_button #edit_content_button{
+    width:210px;
+    margin-right: 11px;
+    border-radius: 10px;
+}
+
+.container_content_button .right_content_button #delete_content_button{
+    width: 210px;
+    border-radius: 10px;
+}
+
+.flex_language_icon{
+    display: flex;
+    margin: 5px;
+}
+
+.flex_language_icon .language_icon{
+    margin-right: 10px;
 }
