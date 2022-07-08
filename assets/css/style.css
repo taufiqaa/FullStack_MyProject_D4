@@ -272,6 +272,7 @@ form #upload_project_button{
   /*  padding: 0 10vh;*/
     border: 1px solid navy;
     height: 100%;
+    padding-bottom: 100px;
 }
 #second_section h1{
     text-align: center;
@@ -282,32 +283,37 @@ form #upload_project_button{
     flex-wrap: wrap;
     border: 1px solid red;
     width: 100%;
-    min-width: 50%;
 }
 
 #second_section .big_content .box{
     margin-top: 2.3%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 400px;
-    height: 550px;
-    margin-left: 5%;
+    height: 600px;
+    padding: 40px;
+    margin-left: 30px;
+    border-radius: 12px;
     /*padding: 0.5vh;*/
-    /*box-shadow: 2px 2px 0 0 black;*/
+    box-shadow: 2px 5px 0 0 black;
 }
 
 #second_section .big_content .box .image_content{
     display: flex;
-    width: 100%;
+    margin: 1.2vw;
+    width: 90%;
     height: 200px;
+    border-radius: 12px;
     border: 0.2px solid green;
+    border-radius: 12px;
 }
 
 #second_section .big_content .box .image_content #image_project1{
     width: 100%;
     height: 200px;
     border: 0.5px solid red;
+    border-radius: 12px;
 }
 
 #second_section .big_content .box #output_project_name{
@@ -315,6 +321,7 @@ form #upload_project_button{
     border: 1px solid black;
     height: 30px;
     width: 100%;
+    margin: 0 1.2vw;
 }
 
 #second_section .big_content .box #output_project_name h3{ font-size: 1vw;
@@ -327,6 +334,7 @@ form #upload_project_button{
     border: 1px solid black;
     height: 25px;
     width: 100%;
+    margin: 0 1.2vw;
 }
 
 #second_section .big_content .box #duration h4{
@@ -339,6 +347,7 @@ form #upload_project_button{
     height: 150px;
     width: 100%;
     text-align: justify;
+    margin: 0.8vw 1.2vw;
 }
 
 #second_section .big_content .box #output_description p{
@@ -350,6 +359,7 @@ form #upload_project_button{
     margin-top: 10px;
     width: 100%;
     height: 45px;
+    margin: 0.8vw 1.2vw;
 }
         
 #second_section .big_content .box .container_language_icon .flex_language_icon{
@@ -364,27 +374,11 @@ form #upload_project_button{
     height: auto;
 }
 
-/*#second_section .big_content .box .container_language_icon .flex_language_icon #react_js{
-    max-width: 100%;
-    height: auto;
-}
-
-#second_section .big_content .box .container_language_icon .flex_language_icon #vue_js{
-    max-width: 100%;
-    height: auto;
-}
-
-#second_section .big_content .box .container_language_icon .flex_language_icon #typescript{
-    max-width: 100%;
-    height: auto;
-}*/
-
-
-
 #second_section .big_content .box .container_content_button{
     margin-top: 5px;
     border: 1px solid black;
     width: 100%;
+    margin: 0.5vw 1.2vw;
 }
 
 #second_section .big_content .box .container_content_button .left_content_button{
@@ -392,8 +386,8 @@ form #upload_project_button{
 }
 
 #second_section .big_content .box .container_content_button .left_content_button #edit_content_button{
-    width: 45%;
-    margin-left: 1vw;
+    width: 49%;
+    margin-left: 1px;
     border-radius: 10vw;
 }
 
@@ -402,7 +396,7 @@ form #upload_project_button{
 }
 
 #second_section .big_content .box .container_content_button .right_content_button #delete_content_button{
-    width:45%;
+    width:49%;
     border-radius: 10vw;
 }
 /*#second_section .box .image_content
