@@ -291,7 +291,7 @@ form #upload_project_button{
     flex-wrap: wrap;
     border: 1px solid black;
     width: 25%;
-    height: 520px;
+    height: 550px;
     margin-left: 5%;
     padding: 0.5vh;
     /*box-shadow: 2px 2px 0 0 black;*/
@@ -334,7 +334,7 @@ form #upload_project_button{
 }
 
 #second_section .big_content .box #output_description{
-    margin-top: 10px;
+    margin-top: 20px;
     border: 1px solid black;
     height: 150px;
     width: 100%;
@@ -356,7 +356,33 @@ form #upload_project_button{
     display:flex;
     flex-direction: row;
 }
-            
+        
+#second_section .big_content .box .container_content_button{
+    margin-top: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+#second_section .big_content .box .container_content_button .left_content_button{
+    display: inline;
+}
+
+#second_section .big_content .box .container_content_button .left_content_button #edit_content_button{
+    width: 45%;
+    margin-left: 1vw;
+    border-radius: 10vw;
+}
+
+#second_section .big_content .box .container_content_button .right_content_button{
+    display: inline;
+}
+
+#second_section .big_content .box .container_content_button .right_content_button #delete_content_button{
+    width:45%;
+    border-radius: 10vw;
+}
+
+#second_section .big_content .box .container_content_button 
 /*#second_section .box .image_content
 #image_project1{
     width: 430px;
