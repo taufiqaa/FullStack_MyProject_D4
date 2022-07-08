@@ -24,7 +24,7 @@ function loadProjects() {
    console.log(projects);
 
     let containerProjects = document.getElementById("big_content")
-    window.onload = function(){
+    
     containerProjects.innerHTML = ""
 
     for (let i = 0; i < projects.length; i++) {
@@ -34,7 +34,7 @@ function loadProjects() {
             <div class="image_content">
                  <img src="${projects[i].imageFile}" alt="" id="image_project1">
          </div>
-        <h3>${projects[i].projectName}</h3>
+       <div> <h3>${projects[i].projectName}</h3> </div>
         <p>${projects[i].description}</p>
         <div class="container_language_icon">
             <div class="flex_language_icon">
@@ -64,7 +64,7 @@ function loadProjects() {
         </div>`
     }   
 }
-}
+
 
 
 
