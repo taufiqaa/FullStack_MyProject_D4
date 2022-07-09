@@ -19,7 +19,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="">My Project</a>
+                    <a href="blog.html">My Project</a>
                 </li>
         </div>
         <div class="right_side">
@@ -48,23 +48,27 @@
         <textarea name="" id="description" cols="30" rows="10"></textarea>
     </div>
     <div class="container_technologies">
-        <div class="left_technologies">
-            <label>
-                <input type="checkbox" id="all_language_icon1">Node Js
-            </label>
-            <label>
-                <input type="checkbox" id="all_language_icon2">React Js
-            </label>
+        <div id="left_technologies">
+            <div class="language_checkbox">
+                <input type="checkbox" name="language_1" id="language_1" value="language_1">
+            <label for="language_1">Node Js</label>
+            </div>
+            <div class="language_checkbox">
+                <input type="checkbox" name="language_2" id="language_2" value="language_2">
+            <label for="language_2">React Js</label>
+            </div>
         </div>
-        <div class="right_technologies">
-            <label>
-                <input type="checkbox" id="all_language_icon3">Vue Js
-            </label>
-            <label>
-                <input type="checkbox" id="all_language_icon4">TypeScript
-            </label>
+        <div id="right_technologies">
+            <div class="language_checkbox">
+                <input type="checkbox" name="language_3" id="language_3" value="language_3">
+                <label for="language_3">Vue Js</label>
+            </div>
+            <div class="language_checkbox">
+                <input type="checkbox" name="language_4" id="language_4" value="language_4">
+                <label for="language_4">TypeScript</label>
+            </div>
         </div>
-    </div>
+    </div>    
     <div>
         <label for="upload_image_button">Upload Image</label>
         <input type="file" id="upload_image_button" hidden> 
