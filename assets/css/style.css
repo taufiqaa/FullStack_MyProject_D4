@@ -552,10 +552,18 @@ form #upload_project_button{
 }
 
 .bottom_section{
-    padding: 50px;
+    padding: 0 50px;
+    padding-bottom: 50px;
     border: 1px solid black;
     width: 80vw;
     height: 450px;
     display: flex;
     margin: auto;
+}
+
+.bottom_section #output_description_detail{
+    resize: none;
+    border: transparent;
+    border-radius: 1vw;
+    height: 100%;
 }
