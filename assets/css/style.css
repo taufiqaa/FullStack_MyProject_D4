@@ -484,11 +484,22 @@ form #upload_project_button{
 
 .top_section #content_information .duration_information #date_information #output_start_date{
         border: 1px solid black;
-        width: 35%;
+        width: 40%;
         height: 100%;
         box-sizing: border-box;
     }
 
+.top_section #content_information .duration_information #date_information #range_icon{
+        border: 1px solid black;
+        width: 20%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+/*
+.top_section #content_information .duration_information #date_information #range_icon .fa-horizontal-rule{
+    display: inline ;
+}
+*/
 .top_section #content_information .duration_information #date_information #output_end_date{
         border: 1px solid black;
         width: 40%;
@@ -551,6 +562,30 @@ form #upload_project_button{
     box-sizing: border-box;
 }
 
+.top_section #content_information .technologies_information #language_information #output_language_detail{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.top_section #content_information .technologies_information #language_information #output_language_detail #node_output{
+    display: flex;
+    margin-right: 32%;
+}
+
+.top_section #content_information .technologies_information #language_information #output_language_detail #react_output{
+    display: flex;
+}
+
+.top_section #content_information .technologies_information #language_information #output_language_detail #vue_output{
+    display: flex;
+    margin-right: 32%;
+}
+
+.top_section #content_information .technologies_information #language_information #output_language_detail #typescript_output{
+    display: flex;
+}
+
 .bottom_section{
     padding: 0 50px;
     padding-bottom: 50px;
@@ -559,7 +594,7 @@ form #upload_project_button{
     height: 450px;
     display: flex;
     margin: auto;
-}
+}   
 
 .bottom_section #output_description_detail{
     resize: none;
