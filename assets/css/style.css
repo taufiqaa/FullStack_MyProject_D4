@@ -406,43 +406,148 @@ form #upload_project_button{
     color: white;
     background-color: navy;
 }
-/*#second_section .box .image_content
-#image_project1{
-    width: 430px;
-    height: 250px;
-    padding: 10px;
-    background-color: aqua;
+
+/*blog-detail.html*/
+
+.detail_title h1{
+    text-align: center;
 }
 
-.box #output_project_name p{
-    text-align: justify;
-    padding: 0 10px;
-}
-
-.container_content_button{
+.top_section{
+    padding: 50px;
+    border: 1px solid red;
+    width: 60vw;
+    height: 450px;
     display: flex;
-    margin: 0 10px;
+    margin: auto;
+}
+
+.top_section #main_content_picture{
+    border: 1px solid green;
+    width: 70%;
     box-sizing: border-box;
+    height: 100%;
+    margin-left: auto;
+}
+
+.top_section #main_content_picture #main_picture_detail{
     width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    
 }
 
-.container_content_button .left_content_button #edit_content_button{
-    width:210px;
-    margin-right: 11px;
-    border-radius: 10px;
+.top_section #content_information{
+    border: 1px solid navy;
+    width: 30%;
+    box-sizing: border-box;
+    height: 75%;
 }
 
-.container_content_button .right_content_button #delete_content_button{
-    width: 210px;
-    border-radius: 10px;
+.top_section #content_information .duration_information #duration_title{
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
 }
 
-.flex_language_icon{
+.top_section #content_information .duration_information #duration_title h3{
+    display: inline;
+}
+
+.top_section #content_information .duration_information{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+    height: 45%;
+    box-sizing: border-box;
+}
+
+.top_section #content_information .duration_information #date_information{
+    border: 1px solid red;
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
     display: flex;
-    margin: 5px;
 }
 
-.flex_language_icon .language_icon{
-    margin-right: 10px;
-    margin-top: 5px;
+.top_section #content_information .duration_information #date_information #date_icon{
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
 }
+
+.top_section #content_information .duration_information #date_information #date_icon .calendar-days{
+    display: inline;
+}
+
+.top_section #content_information .duration_information #date_information #output_start_date{
+        border: 1px solid black;
+        width: 35%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+.top_section #content_information .duration_information #date_information #output_end_date{
+        border: 1px solid black;
+        width: 40%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+.top_section #content_information .duration_information #time_information{
+    border: 1px solid red;
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.top_section #content_information .duration_information #time_information #time_icon{
+    border: 1px solid red;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.top_section #content_information .duration_information #time_information #time_icon .fa-hourglass{
+    display: inline;
+}
+
+.top_section #content_information .duration_information #time_information #output_duration {
+    border: 1px solid black;
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.top_section #content_information .technologies_information{
+    border: 1px solid pink;
+    width: 100%;
+    height: 45%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.top_section #content_information .technologies_information #language_title{
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+.top_section #content_information .technologies_information #language_title h3{
+    display: inline;
+}
+
+.top_section #content_information .technologies_information #language_information{
+    border: 1px solid red;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
