@@ -416,7 +416,7 @@ form #upload_project_button{
 .top_section{
     padding: 50px;
     border: 1px solid red;
-    width: 60vw;
+    width: 80vw;
     height: 450px;
     display: flex;
     margin: auto;
@@ -551,3 +551,11 @@ form #upload_project_button{
     box-sizing: border-box;
 }
 
+.bottom_section{
+    padding: 50px;
+    border: 1px solid black;
+    width: 80vw;
+    height: 450px;
+    display: flex;
+    margin: auto;
+}
