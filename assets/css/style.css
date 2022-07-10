@@ -394,7 +394,7 @@ form #upload_project_button{
 #second_section .big_content .box .container_content_button{
     margin-top: 5px;
     width: 100%;
-    margin: 0.5vw 1.2vw;
+    margin: 0.5vw 0.5vw;
     border: 1px solid black;
 }
 
@@ -403,7 +403,7 @@ form #upload_project_button{
 }
 
 #second_section .big_content .box .container_content_button .left_content_button #edit_content_button{
-    width: 49%;
+    width: 45%;
     margin-left: 1px;
     border-radius: 10vw;
     color: white;
@@ -416,7 +416,7 @@ form #upload_project_button{
 }
 
 #second_section .big_content .box .container_content_button .right_content_button #delete_content_button{
-    width:49%;
+    width:45%;
     border-radius: 10vw;
     color: white;
     background-color: navy;
