@@ -285,6 +285,7 @@ form #upload_project_button{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    border: 1px solid black;
 }
 
 #second_section .big_content .box{
@@ -295,7 +296,7 @@ form #upload_project_button{
     width: 22vw;
     height: 600px;
     padding: 40px;
-    margin-left: 11vw;
+    margin-left: 5vw;
     border-radius: 12px;
     box-shadow: 2px 5px 0 0 black;
     background-color: azure;
