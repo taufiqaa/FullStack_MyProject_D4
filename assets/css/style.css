@@ -254,6 +254,10 @@ form #description{
     margin-bottom: 1px;
 }
 
+.upload_project{
+    text-align: end;
+}
+
 form #upload_image_button{
     background-color: white;
     box-shadow: 2px 3px 0 0 black;
