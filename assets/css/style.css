@@ -395,6 +395,7 @@ form #upload_project_button{
     margin-top: 5px;
     width: 100%;
     margin: 0.5vw 1.2vw;
+    border: 1px solid black;
 }
 
 #second_section .big_content .box .container_content_button .left_content_button{
