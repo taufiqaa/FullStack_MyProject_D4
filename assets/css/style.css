@@ -584,7 +584,7 @@ form #upload_project_button{
 
 .top_section #content_information .technologies_information #language_information #output_language_detail #node_output{
     display: flex;
-    margin-right: 30%;
+    margin-right: 10%;
 }
 
 .top_section #content_information .technologies_information #language_information #output_language_detail #react_output{
@@ -593,7 +593,7 @@ form #upload_project_button{
 
 .top_section #content_information .technologies_information #language_information #output_language_detail #vue_output{
     display: flex;
-    margin-right: 32%;
+    margin-right: 10%;
 }
 
 .top_section #content_information .technologies_information #language_information #output_language_detail #typescript_output{
