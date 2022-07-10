@@ -285,7 +285,6 @@ form #upload_project_button{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid black;
 }
 
 #second_section .big_content .box{
